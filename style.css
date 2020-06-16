@@ -74,10 +74,7 @@ p
     padding-bottom: 2em;
 
 }
-#section-b
-{
-    padding: 2em 1em 1em;
-}
+
 #section-b ul
 {
     list-style: none;
@@ -108,6 +105,27 @@ color: #333333;
 }
 #section-d .box:first-child
 {
-    background: blue;
+    background:#2690d4;
+
+}
+
+#main-footer
+{
+    padding: 2em;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+#main-footer a
+{
+color: #2690d4;
+text-decoration: none;
+}
+@media(min-width: 700px)
+{
+    .grid
+    {
+        display: grid;
+    }
     
 }
